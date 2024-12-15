@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GENESIS HOSPITAL</title>
+  <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="shortcut icon" href="./favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Genesis Health" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="stylesheet" href="./Home.css">
+  <link rel="stylesheet" href="./Reset_style_sheet.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,400;0,500;0,700;0,900;1,100;1,200;1,400;1,500;1,700;1,900&display=swap">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+</head>
+
+<header>
+  <!--menu-->
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w2.org/2000/svg" height="26" viewBox="0 96 960 960"
+            width="26">
+            <path
+              d="m249 849-42-42 221-221-221-221 42-42 221 221 221-221 42 42-221 221 221 221-42 42-221-221-221 221Z" />
+          </svg></a></li>
+      <li><a href="./index.html">Home</a></li>
+      <li><a>About Us</a></li>
+      <li><a>Services</a></li>
+      <li><a>Doctors</a></li>
+      <li><a>Reservations</a></li>
+      <li><a href="./Pharmacy.html">Pharmacy</a></li>
+      <li><a href="./Payments.html">Payments</a></li>
+    </ul>
+    <ul>
+      <li></li>
+      <li class="hideOnMobile"><a href="./index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="#">About Us</a></li>
+      <li class="hideOnMobile"><a href="#">Services</a></li>
+      <li class="hideOnMobile"><a href="#">Doctors</a></li>
+      <li class="hideOnMobile"><a href="#">Reservations</a></li>
+      <li class="hideOnMobile"><a href="./Pharmacy.html">Pharmacy</a></li>
+      <li class="hideOnMobile"><a href="./Payments.html">Payments</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w2.org/2000/svg" height="26"
+            viewBox="0 96 960 960" width="26">
+            <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+          </svg></a></li>
+    </ul>
+  </nav>
+
+  <!--logo-->
+  <section class="logo">
+    <a href="#"><img src="./images/logo.webp" alt="logo"></a>
+  </section>
+
+  <!--search bar-->
+
+  <section class="box">
+
+
+    <input type="search" placeholder="search...">
+    <form action="https://www.google.com/search" method="get" class="search-bar">
+      <a type="submit">
+        <img src="./images/search.webp" alt="search">
+      </a>
+    </form>
+  </section>
+
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+</header>
+
+<body>
+
+
+  <!--para-->
+  <div class="why-content">
+    <section class="why">
+
+      <h2>
+        <b>WHY PATIENTS CHOOSE US</b>
+      </h2>
+
+
+      <!--paragraph-1-->
+      <h4 class="para">
+        <p>
+          <!--unordered-list-->
+        <ul>
+          <li>
+            Genesis Health employs, consults, and partners with the most dedicated,
+            skilled, </p>
+            <p> experienced healthcare professionals to offer some of
+              the country’s most advanced,</p>
+            <p> based clinical programmes
+              for treating complex diseases, through our Centres</p>
+            <p>of Excellence.
+              We have a sound record for offering outstanding outcomes. <br>
+          </li>
+        </ul>
+        </p>
+        </br><br>
+
+        <p>
+        <ul>
+          <li>
+
+            Genesis Health also offers treatment for increasingly common lifestyle
+            -based diseases,</p>
+            <p> preventive healthcare, and the most complete menu of
+              diagnostic tests.</br><br>
+
+          </li>
+        </ul>
+        </p>
+
+        <p>
+        <ul>
+          <li>
+            All Genesis Health Hospitals have international accreditation.</br>
+
+          </li>
+        </ul>
+        </p>
+      </h4>
+    </section>
+  </div>
+
+  <!--image & note-->
+
+  <section>
+    <div class="about-1">
+      <div class="inner-sectionone">
+        <h1 class="one">About Us</h1>
+        <p class="textone">
+        <ol>
+          <li>GENESIS COLOMBO <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></li>
+          <hr class="flex">
+          <li>GENESIS KANDY <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></li>
+          <hr class="flex">
+          <li>GENESIS GALL <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></li>
+          <hr class="flex">
+          <li>GENESIS KURUNAGALA <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></li>
+          <hr class="flex">
+          </h4>
+        </ol>
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <hr class="G">
+  <div>
+    <h1 class="Q">Centres of Excellence</h1>
+  </div>
+  <!--GENESIS Health Group Centres of Excellence-->
+  <div>
+    <section class="boxx-container-2">
+      <section class="boxx">
+        <img class="boxxx" src="./images/home/heart.webp" alt="heart">
+        <h5>GENESIS HEART CENTER</h5>
+      </section>
+
+      <section class="boxx">
+        <img class="boxxx" src="./images/home/brain.webp" alt="brain">
+        <h5>GENESIS BRAIN & SPAIN CENTER</h5>
+      </section>
+
+      <section class="boxx">
+        <img class="boxxx" src="./images/home/urology.webp" alt="urology">
+        <h5>GENESIS UROLOGY SERVICE</h5>
+      </section>
+
+      <section class="boxx">
+        <img class="boxxx" src="./images/home/bone.webp" alt="bone">
+        <h5>BONE MARROW TRANSPLANT</h5>
+      </section>
+      <section class="boxx">
+        <img class="boxxx" src="./images/home/cancer.webp" alt="cancer">
+        <h5>GENESIS CANCER CENTER</h5>
+      </section>
+      <section class="boxx">
+        <img class="boxxx" src="./images/home/stroke.webp" alt="stroke">
+        <h5>GENESIS STROKE CENTER</h5>
+      </section>
+      <section class="boxx">
+        <img class="boxxx" src="./images/home/m & b.webp" alt="m & b">
+        <h5>GENESIS MOTHER & BABY CARE</h5>
+      </section>
+      <section class="boxx">
+        <img class="boxxx" src="./images/home/kidneys.webp" alt="kidneys">
+        <h5>GENESIS KIDNEY TRANSPLANT</h5>
+      </section>
+      <section class="boxx">
+        <img class="boxxx" src="./images/home/x-ray.webp " alt="x-ray">
+        <h5>INTERVENTIONAL RADIOLOGY</h5>
+      </section>
+      <section class="boxx">
+        <img class="boxxx" src="./images/home/airplane.webp" alt="airplane">
+        <h5>VISA MEDICALS-US,UK,AUS,NZ,CAN</h5>
+      </section>
+    </section>
+
+  </div>
+
+
+
+  <hr class="Q">
+
+  <!--quality Data -->
+
+  <div>
+    <h1 class="Q">Quality Data</h1>
+  </div>
+
+  <div>
+    <section class="boxx-container1">
+      <section class="boxx2">
+        <h2>96.71%</h2>
+        <h5>Patient Satisfaction Rate on Services</h5>
+      </section>
+      <section class="boxx2">
+        <h2>86.60%</h2>
+        <h5>Hand Hygiene Compliance</h5>
+      </section>
+      <section class="boxx2">
+        <h2>92.52%</h2>
+        <h5>Compliance to Correct Patient Identification</h5>
+      </section>
+      <section class="boxx2">
+        <h2>0.16%</h2>
+        <h5>Adverse Drug Reaction</h5>
+      </section>
+      <section class="boxx2">
+        <h2>0.10%</h2>
+        <h5>Rate of Hospital Acquired Infections</h5>
+      </section>
+      <section class="boxx2">
+        <h2>0.00%</h2>
+        <h5>Rate of Hospital Acquired Bed Sores</h5>
+      </section>
+      <section class="boxx2">
+        <h2>0.00%</h2>
+        <h5>Rate of Patient Falls</h5>
+      </section>
+    </section>
+  </div>
+
+  <hr class="four">
+
+  <!--pacient's comments-->
+
+  <div>
+    <h1 class="four"> Inspiring Stories!</h1>
+    <section class="container4">
+      <section class="box4-container4">
+        <section class="box4">
+          <img class="four" src="./images/review/mandy.webp" alt="Ms.Mandy Row">
+          <h4 class="four">Ms.Mandy raw</h4>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>I've no words to express my gratitude for the Genesis BMT team who cared for me more than anyone has in
+            this world. I was in a lot of pain, their patience and caring encouragement gave me hope and strengthened me
+            through the 45-day transplant process.</p>
+        </section>
+
+        <section class="box4">
+          <img class="four" src="./images/review/henry.webp" alt="Mr.Henri Richedson">
+          <h4 class="four">Mr.Henri Richedson</h4>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star "></i>
+
+
+
+          </div>
+          <p>At a time when even the doctors were disbelieving about life, I would like to express my respectful thanks
+            to the doctors and staff of the Neurological Unit of Genesis Central Hospital who took responsibility for my
+            husband's life and gave him life.</p>
+        </section>
+
+        <section class="box4">
+          <img class="four" src="./images/review/joe.webp" alt="Mr.Joe Root">
+          <h4 class="four">Mr.Joe Root</h4>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>When I came to Asiri Heart Center, my life was 90% at risk. My life was saved due to the quick response and
+            correct actions of the doctors at Genesis Heart Centre.</p>
+        </section>
+      </section>
+    </section>
+  </div>
+</body>
+
+<!--footer-->
+<footer>
+  <div class="container1">
+    <div class="row">
+      <div class="col" id="company">
+        <a href="./index.html"><img src="./images/logo.webp" alt="logo" class="logo"></a>
+        <p>
+          With International accreditation for Patient Safety and Care,
+          the Genesis Health Group is the leading private healthcare provider in Sri Lanka.
+          Our unwavering commitment to compassionate patient care,
+          innovation & outstanding patient outcomes has earned us the high position of trust we enjoy.
+        </p>
+      </div>
+
+
+      <div class="col" id="services">
+        <a href="./Srevices.html" style="text-decoration: none;">
+          <h3>Services</h3>
+        </a>
+        <div class="links">
+          <a href="./Srevices.html">HEALTHCARE SERVICES</a>
+          <a href="./Srevices.html">FACILITIES & AMENITIES</a>
+          <a href="./Srevices.html">HEALTH & WELLNESS</a>
+          <a href="./Srevices.html">AGRAHARA</a>
+        </div>
+      </div>
+
+      <div class="col" id="useful-links">
+        <a href="./Branches.html" style="text-decoration: none;">
+          <h3>GENESIS GROUP</h2>
+        </a>
+        <div class="links">
+          <a href="./Branches.html">Colombo</a>
+          <a href="./Branches.html">Kandy</a>
+          <a href="./Branches.html">Kurunagal</a>
+          <a href="./Branches.html">Gall</a>
+        </div>
+      </div>
+      <div class="col" id="contact">
+        <h3>Contact</h2>
+          <div class="contact-details">
+            <i class="fa fa-location"></i>
+            <p>GENESIS colombo <br>
+              main branch</p>
+          </div>
+          <div class="contact-details">
+            <i class="fa fa-phone"></i>
+            <p>+94-87 558 5685</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--copyright statement-->
+  <div>
+    <p class="rights">
+      &copy; 2024 GENESIS HOSPITAL. All rights reserved.
+    </p>
+  </div>
+  <!--back to top button-->
+  <div>
+    <a href="#" class="back-to-top">
+      <span class="material-icons"> <img class="scroll" src="./images/scroll.webp" alt="scroll"></span>
+    </a>
+  </div>
+</footer>
+<!-- source
+https://asirihealth.com/(asiri health)
+https://stockcake.com/(StockCake)
+https://www.remove.bg/(removebg)
+https://fontawesome.com/v4/icons/(The Icons)
+https://www.flaticon.com/free-icons/image(FLATICON)
+-->
+
+</html>
